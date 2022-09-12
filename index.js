@@ -8,7 +8,7 @@ if(strokes == 1){
 else if(strokes <= par - 2){
   return "Eagle";
 }
-else if(strokes == par - 1){
+else if(strokes === par - 1){
   return "Birdie";
 }
 else if(strokes === par){
